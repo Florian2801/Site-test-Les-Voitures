@@ -1,0 +1,55 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 6vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 0.2vw black;
+}
+
+img {
+    max-width: 60%; 
+    min-width: 40%;
+    height: auto;
+    clip-path: inset(8vw 0 12vw 0);
+    border-radius: 4px;
+}
+
+p {
+    font-size: 3vw;
+}
+
+h2 {
+    color: blue;
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 0.2vw black;
+}
+
+ol, ul {
+    font-size: 3vw;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+button {
+    padding: 5% 10%;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    font-size: 3vw;
+    transition: 0.1s;
+    letter-spacing: 0.2vw;
+    cursor: pointer;
+    max-width: 60vw;
+    width: 80%;
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+button:hover {
+    border: yellow solid 2px;
+    box-shadow: #000000d7 5px 5px 0;
+}
